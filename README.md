@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Requires own API key from https://openweathermap.org
+
+Create `./src/Config.js` with the following
+```
+const apiKey = 'YOUR API KEY';
+export default apiKey;
+```
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
