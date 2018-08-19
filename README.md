@@ -4,7 +4,8 @@ Requires own API key from https://openweathermap.org
 
 Create `./src/Config.js` with the following
 ```
-export const apiKey = 'YOUR API KEY';
+const apiKey = 'YOUR API KEY';
+export default apiKey
 ```
 
 Below you will find some information on how to perform common tasks.<br>
