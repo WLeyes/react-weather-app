@@ -5,7 +5,7 @@ const ROOT_URL = `https://api.openweathermap.org/data/2.5/forecast?&units=metric
 export const FETCH_WEATHER = 'FETCH_WEATHER';
 
 export function fetchWeather(CITY) {
-  const url = `${ROOT_URL}&q=${CITY},'ca'`;
+  const url = `${ROOT_URL}&q=${CITY},CA`;
   const request = axios.get(url);
 
   return {
